@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+printf("Sizes of int, char and float...\n");
+printf("int is: %d bytes\n", sizeof(int));
+printf("char is: %d bytes\n", sizeof(char));
+printf("float is: %d bytes\n", sizeof(float));
+return 0;
+}
