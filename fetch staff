@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+ float basic_salary,HRA,DA,GROSS_salry;
+ printf("enter the salry amount: ");
+ scanf("%f",&basic_salary);
+ (basic_salary>1500)?(printf("senior staff")):(printf("junior staff"));
+
+    return 0;
+}
