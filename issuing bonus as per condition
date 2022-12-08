@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+        float jy,wy;
+        wy=2022-jy;
+        printf("enter the joined year: ");
+        scanf("%f",&jy);
+        if (wy>3)
+        printf("issue him bonus of 2500 rupees.");
+
+    return 0;
+}
+
