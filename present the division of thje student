@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+float m1,m2,m3,m4,m5,perc;
+perc=m1+m2+m3+m4+m5/5;
+printf("enter the five subjects mark of the student: ");
+scanf("%f" "%f" "%f" "%f" "%f",&m1,&m2,&m3,&m4,&m5);
+if(perc>60)
+{
+    printf("the student in first division.");
+}
+else if(perc<59&&perc>50)
+{
+    printf("the student in second division.");
+}
+else if(perc<50&&perc>39)
+{
+    printf("the student in third division.");
+}
+else
+printf("sorry....the student is fail.");
+    return 0;
+}
