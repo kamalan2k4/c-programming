@@ -1,0 +1,32 @@
+#include<stdio.h>
+
+int main()
+{
+    int num,a[100],i,p = 0,n = 0,z = 0,invalid = 0;
+  
+   printf("enter how many numbers:");
+    scanf("%d",&num);
+printf("numbers:");
+for(i = 0;i<num;i++)
+scanf("%d",&a[i]);
+    for(i=0;i<num;i++)
+    {
+        if(a[i]>0)
+        p++;
+        else if(a[i]<0)
+        n++;
+        else if(a[i] == 0)
+        z++;
+        else{
+        printf("wrong entry");
+        break;
+        }
+
+    }
+   
+    printf("\npositive numbers:%d",p);
+    printf("\nnegative numbers:%d",n);
+    printf("\nzeros:%d",z);
+
+
+}
